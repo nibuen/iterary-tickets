@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest something Iterary should be able to do
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which Iterary are you using?
+      description: The web beta and the classic site are different apps, and most new features land in the beta first.
+      options:
+        - Web beta (beta.iterary.com)
+        - Web classic (www.iterary.com)
+        - Mobile app (Android / iOS)
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The game or mechanic you are building and where Iterary gets in the way.
+      placeholder: I am prototyping a deck-builder and need a place to permanently remove cards from the deck...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to happen?
+      description: Describe the feature as you would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: How do you handle it today? (optional)
+      description: Any workaround you use now, or alternatives you considered.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, a share link to your game, or other context.

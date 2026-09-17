@@ -4,6 +4,8 @@
 
 No signup, no install — just open [iterary.com](https://www.iterary.com) and start building.
 
+There are two web apps right now: the classic site at [www.iterary.com](https://www.iterary.com) and the new **beta** at [beta.iterary.com](https://beta.iterary.com), where new features land first. When you file something, the form asks which one you are on.
+
 ## What you can build
 
 - **Board Crates** — grid-based boards with drag-and-drop pieces that snap to cells
@@ -23,8 +25,8 @@ No signup, no install — just open [iterary.com](https://www.iterary.com) and s
 
 This repo is for **feature requests and bug reports**. We'd love to hear what you're building!
 
-- [Request a feature](https://github.com/nibuen/iterary-tickets/issues/new?template=feature_request.md)
-- [Report a bug](https://github.com/nibuen/iterary-tickets/issues/new?template=bug_report.md)
+- [Request a feature](https://github.com/nibuen/iterary-tickets/issues/new?template=feature_request.yml)
+- [Report a bug](https://github.com/nibuen/iterary-tickets/issues/new?template=bug_report.yml)
 - [Join the discussion](https://github.com/nibuen/iterary-tickets/discussions)
 
 ## Links

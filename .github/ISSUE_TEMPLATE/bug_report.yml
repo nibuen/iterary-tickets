@@ -1,0 +1,49 @@
+name: Bug report
+description: Something is broken or behaves unexpectedly
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which Iterary are you using?
+      description: The web beta and the classic site are different apps, so this is the first thing we check.
+      options:
+        - Web beta (beta.iterary.com)
+        - Web classic (www.iterary.com)
+        - Mobile app (Android / iOS)
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Shown at the bottom of the page or in About, e.g. v1.6.1-beta19. Leave blank if you cannot find it.
+      placeholder: v1.6.1-beta19
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead. Steps to reproduce are gold.
+      placeholder: |
+        1. Open a game with a card deck
+        2. Click Shuffle
+        3. The discard pile stays put
+    validations:
+      required: true
+  - type: textarea
+    id: link
+    attributes:
+      label: Share link (optional)
+      description: If a shared game shows the problem, paste its link here. That lets us open exactly what you see.
+  - type: input
+    id: env
+    attributes:
+      label: Browser and device
+      placeholder: Chrome on Windows 11, Safari on iPhone 15, ...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, error messages, or context.
